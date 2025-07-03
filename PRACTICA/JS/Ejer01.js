@@ -14,14 +14,14 @@ Producto C: $2340.25
 Total de ventas: $4481.5
 Promedio por producto: $1493.83 */
 
-let productoA = 1250.75;
-let productoB = 890.50;
-let productoC = 2340.25;
+let ProductoA = 1250.75;
+let ProductoB = 890.50;
+let ProductoC = 2340.25;
 
-let Total = productoA+productoB+productoC;
-let Promedio = productoA+productoB+productoC/3;
-console.log(`Producto A: $${productoA}`);
-console.log(`Producto B: $${productoB}`);
-console.log(`Producto C: $${productoC}`);
+let Total = ProductoA+ProductoB+ProductoC;
+let Promedio = ProductoA+productoB+ProductoC/3;
+console.log(`Producto A: $${ProductoA}`);
+console.log(`Producto B: $${ProductoB}`);
+console.log(`Producto C: $${ProductoC}`);
 console.log(`Total ventas: $${Total}`);
 console.log(`Promedio por producto: $${ Promedio.toFixed(2)}`);
